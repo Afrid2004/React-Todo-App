@@ -23,7 +23,7 @@ const Newtodo = (props) => {
         <form onSubmit={handlesubmit} className='form-container'>
             <div>
                 <label htmlFor="title">
-                    <input type="text" onChange={handleChange} value={title} name='title' id='title' placeholder='Enter your task*' required />
+                    <input type="text" onChange={handleChange} value={title} name='title' id='title' placeholder='Enter your task' required />
                 </label>
             </div>
             <div>
