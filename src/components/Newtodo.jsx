@@ -28,7 +28,7 @@ const Newtodo = (props) => {
             </div>
             <div>
                 <label htmlFor="desc">
-                    <textarea name='desc' onChange={handleChange} value={desc}  id='desc' placeholder='Enter task description'/>
+                    <textarea name='desc' onChange={handleChange} value={desc}  id='desc' placeholder='Enter task description (optional)'/>
                 </label>
             </div>
             <button className='add' type='submit'>Add Task</button>
